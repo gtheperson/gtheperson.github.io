@@ -1,7 +1,13 @@
 /* Style for Portfolio */
 h1 {
 	margin-left: 20px;
-	padding-top: 10px;
+	padding-top: 5px;
+	font-family: "Berkshire swash";
+	color: #3fad32;
+	font-style: italic;
+}
+a {
+	text-decoration: none;
 }
 
 .nav-bar {
@@ -15,11 +21,39 @@ h1 {
 }
 
 .btn-div {
-	position: absolute;
-	right: 20px;
-	top: 40px;
+	text-align: right;
+	margin-top: -50px;
+	margin-right: 10px;
 }
 
 .content {
 	padding-top: 50px;
+}
+.btn {
+	padding-right: 20px;
+}
+.int-link {
+	display: block;
+	position: relative;
+	visibility: hidden;
+	top: -80px;
+}
+
+@media screen and (max-width: 720px) {
+	.btn-div {
+		text-align: left;
+		margin-top: 0px;
+	}
+	.nav-bar {
+		height: 120px;
+	}
+	.content {
+		padding-top: 90px;
+	}
+	.btn {
+		padding: 10px;
+	}
+	.int-link {
+		top: -140px;
+	}
 }
