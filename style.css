@@ -1,0 +1,25 @@
+/* Style for Portfolio */
+h1 {
+	margin-left: 20px;
+	padding-top: 10px;
+}
+
+.nav-bar {
+	background-color: #68ff6a;
+	height: 80px;
+	margin-top: -22px;
+	margin-left: -10px;
+	margin-right: -10px;
+	position: fixed;
+	width: 100%;
+}
+
+.btn-div {
+	position: absolute;
+	right: 20px;
+	top: 40px;
+}
+
+.content {
+	padding-top: 50px;
+}
