@@ -1,7 +1,10 @@
 /* Style for Portfolio */
-h1 {
+body {
+	background-color: #ffe947;
+}
+.initials {
 	margin-left: 20px;
-	padding-top: 5px;
+	padding-top: 0px;
 	font-family: "Berkshire swash";
 	color: #3fad32;
 	font-style: italic;
@@ -11,13 +14,15 @@ a {
 }
 
 .nav-bar {
-	background-color: #68ff6a;
+	background: linear-gradient(#50e052, #68ff6a);
 	height: 80px;
-	margin-top: -22px;
-	margin-left: -10px;
-	margin-right: -10px;
+	margin-top: -77px;
+	margin-left: -8px;
+	margin-right: 0px;
 	position: fixed;
 	width: 100%;
+	/* stops thumb overlays appearing above */
+	z-index: 1000;
 }
 
 .btn-div {
@@ -27,10 +32,13 @@ a {
 }
 
 .content {
-	padding-top: 50px;
+	background-color: white;
+	margin: -8px;
+	padding: 10px;
 }
 .btn {
 	padding-right: 20px;
+	font-family: "Nova Mono";
 }
 .int-link {
 	display: block;
@@ -38,17 +46,144 @@ a {
 	visibility: hidden;
 	top: -80px;
 }
+.title-div {
+	margin-top: 75px;
+	padding-top: 40px;
+	background: linear-gradient(#68ff6a, white);
+	margin-right: -8px;
+	margin-left: -8px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.title-text-div {
+	margin: auto;
+}
+.title {
+	text-align: center;
+	margin: auto;
+	font-family: "Nova Mono";
+}
+.me {
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+}
+h2 {
+	font-family: "Nova Mono";
+}
+p {
+	font-family: "roboto mono";
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.proj-thumbs {
+	display: flex;
+	flex-wrap: wrap;
+}
+.thumb-div {
+	margin: auto;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.thumb-container {
+	/* needed otherwise the overlay appears at the top of the screen */
+	position: relative;
+}
+.thumb {
+	width: 300px;
+	height: 270px;
+	border: 6px solid black;
+	border-radius: 20px;
+	margin: auto;
+	box-shadow: 13px 13px 22px -4px rgba(163,160,163,1);
+}
+.overlay {
+	position: absolute;
+	top: 0px;
+	right: 0;
+	bottom: 0;
+	left: 0px;
+	background-color: #bcffe4;
+	border-radius: 20px;
+	width: 300px;
+	height: 0px;
+	border: 0px solid black;
+	-webkit- transition: 1s;
+	transition: 1s;
+}
+.overlay-text {
+	visibility: hidden;
+	-webkit- transition: 1s;
+	transition: 1s;
+	padding: 10px;
+}
+.thumb-container:hover .overlay {
+	height: 270px;
+	border: 6px solid black;
+}
+.thumb-container:hover .overlay-text {
+	visibility: visible;
+}
+
+li {
+	width: 250px;
+}
+.cont-div {
+	display: flex;
+	flex-wrap: wrap;
+}
+.cont-p {
+	margin: auto;
+	width: 400px;
+	text-justify: auto;
+} 
+.links-div {
+	margin: auto;
+	width: 300px;	
+}
+.email {
+	margin: auto;
+}
+.link {
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+}
+
+.bottom-bar {
+	margin-top: 10px;
+	margin-right: -8px;
+	margin-left: -10px;
+	margin-bottom: -50px;
+	padding: 10px;
+	background-color: #ffe947;
+	text-align: center;
+}
+.b-p {
+	font-size: 10px;
+	padding: 20px;
+}
 
 @media screen and (max-width: 720px) {
 	.btn-div {
 		text-align: left;
-		margin-top: 0px;
+		margin: auto;
+		padding: 10px;
 	}
 	.nav-bar {
 		height: 120px;
+		margin-top: -120px;
+	}
+	.title-div {
+		margin-top: 100px;
+	}
+	.title {
+		padding: 10px;
 	}
 	.content {
-		padding-top: 90px;
+		
 	}
 	.btn {
 		padding: 10px;

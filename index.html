@@ -8,12 +8,15 @@
 	<title>George's Site</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
 </head>
 
 <body>
 	
 	<div class="nav-bar">
-		<h1>GJ</h1>
+		<h1 class="initials">GJ</h1>
 
 		<div class="btn-div">
 			<span class="btn"><a href="#about-sec">ABOUT</a></span>
@@ -22,73 +25,109 @@
 		</div>
 	</div>
 
+	<div class="title-div">
+		<div class="title-text-div">
+			<h1 class="title">George Jacobs Web Developer</h1>
+			<hr>
+			<h1 class="title">Imagine/Create</h1>
+		</div>
+		<img class="me" src="me2.png" alt="photo of George">
+	</div>
+
 	<div class="content">
 		<div class="about">
+
 			<a class="int-link" id="about-sec"></a><h2>About</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Hi, I’m George, a self-taught web developer based in the UK. I have a passion for learning and creating, and am always looking for new challenges. I also enjoy tinkering with python and <a href="https://gtheperson.itch.io/jules-octopus-adventure">pygame</a>. Away from the computer I am a geologist with a focus on <a href="https://www.hou.usra.edu/meetings/lpsc2017/pdf/2139.pdf">martian geochemistry</a>. But whilst I may be able to operate a scanning electron microscope and tell pyroxene from plagioclase, my true love is design and programming. You can also occasionally find my <a href="http://thewifiles.com/?p=779">creative fiction</a> in the genre e-zines and listen to my <a href="https://www.youtube.com/channel/UCy2VWJCgcZI_Oj6P4bBS1sA">history podcasts</a>.</p>
+
 		</div>
 
 		<div class="projects">
 			<a class="int-link" id="proj-sec"></a><h2>Projects</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="proj-thumbs">
+				<div class="thumb-div">
+					
+					<div class="thumb-container">
+						<a href="https://gtheperson.github.io/pixelart/"><img class="thumb" src="images/pixelartthumb.png"></a>
+						<div class="overlay">
+							<h3 class="overlay-text">Pixel Art Maker</h3>
+							<p class="overlay-text">Pixel art maker with user defined grid and colours</p>
+							<p class="overlay-text">Html, CSS, JavaScript</p>
+							<p class="overlay-text">jQuery</p>
+						</div>
+					</div>
+				 </div>
+
+				 <div class="thumb-div">
+					 <div class="thumb-container">
+					 	<a href="https://gtheperson.github.io/ottomancoindate/"><img class="thumb" src="images/ottomancointhumb.png"></a>
+					 	<div class="overlay">
+							<h3 class="overlay-text">Islamic Date Converter</h3>
+							<p class="overlay-text">Islamic to Western Date converter for Ottoman coins</p>
+							<p class="overlay-text">Html, CSS, JavaScript</p>
+							<p class="overlay-text">jQuery</p>
+						</div>
+					 </div>
+				</div>
+
+				 <div class="thumb-div">
+				 	<div class="thumb-container">
+					 	<a href="https://gtheperson.github.io/memegen/"><img class="thumb" src="images/memegen.png"></a>
+					 	<div class="overlay">
+							<h3 class="overlay-text">Meme Maker</h3>
+							<p class="overlay-text">Meme maker allowing image upload and adding text using canvas</p>
+							<p class="overlay-text">Html, CSS, JavaScript</p>
+						</div>
+					</div>
+				 </div>
+
+				 <div class="thumb-div">
+				 	<div class="thumb-container">
+					 	<a href="https://gtheperson.github.io/hangman/"><img class="thumb" src="images/hangman.png"></a>
+					 	<div class="overlay">
+							<h3 class="overlay-text">Hangman</h3>
+							<p class="overlay-text">A hangman game with animal names as possible words</p>
+							<p class="overlay-text">Html, CSS, JavaScript</p>
+							<p class="overlay-text">jQuery</p>
+						</div>
+					</div>
+				 </div>
+
+				 <div class="thumb-div">
+				 	<div class="thumb-container">
+					 	<a href="https://gtheperson.github.io/tribute/"><img class="thumb" src="images/tribute.png"></a>
+					 	<div class="overlay">
+							<h3 class="overlay-text">Tribute Page</h3>
+							<p class="overlay-text">A tribute page for astronomer H Leavitt</p>
+							<p class="overlay-text">Html, CSS</p>
+							<p class="overlay-text">Bootstrap</p>
+						</div>
+					</div>
+				 </div>
+			</div>
 		</div>
 
 		<div class="contact">
 			<a class="int-link" id="cont-sec"></a><h2>Contact</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="cont-div">
+				<div class="cont-p">
+					<p>Please feel free to contact me via email or connect with me through social media. I am always happy to discuss projects, writing ,history and anything else!</p>
+				</div>
+				<div class="links-div">
+					<p class="email">gtheperson@gmail.com</p>
+					<hr>
+					<a href="https://github.com/gtheperson"><img class="link" src="images/GitHub-Mark-64px.png" alt="github link"></a>
+					<a href="linkedin.com/in/george-jacobs-2a08a4156"><img class="link" src="images/In-2C-89px-R.png" alt="linkedin link"></a>
+					<a href="https://www.freecodecamp.org/gtheperson"><img class="link" src="images/FCC.png" alt="FCC link"></a>
+				</div>
+			</div>
 		</div>
 
+	</div>
+
+	<div class="bottom-bar">
+		<span class="b-p">Code and Words by George Jacobs</span>
+		<span class="b-p">2018</span>
 	</div>
 
 </body>
