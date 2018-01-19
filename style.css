@@ -11,6 +11,7 @@ body {
 }
 a {
 	text-decoration: none;
+	color: black;
 }
 
 .nav-bar {
@@ -35,6 +36,7 @@ a {
 	background-color: white;
 	margin: -8px;
 	padding: 10px;
+	padding-bottom: 60px;
 }
 .btn {
 	padding-right: 20px;
@@ -98,6 +100,12 @@ p {
 	border-radius: 20px;
 	margin: auto;
 	box-shadow: 13px 13px 22px -4px rgba(163,160,163,1);
+	opacity: 1;
+	-webkit- transition: 1s;
+	transition: 1s;
+}
+.thumb-container:hover .thumb {
+	opacity: 0;
 }
 .overlay {
 	position: absolute;
@@ -105,26 +113,29 @@ p {
 	right: 0;
 	bottom: 0;
 	left: 0px;
-	background-color: #bcffe4;
+	background-color: #92ff7f;
 	border-radius: 20px;
 	width: 300px;
-	height: 0px;
+	height: 270px;
 	border: 0px solid black;
 	-webkit- transition: 1s;
 	transition: 1s;
+	opacity: 0;
+	border: 6px solid black;
 }
 .overlay-text {
 	visibility: hidden;
+	opacity: 0;
 	-webkit- transition: 1s;
 	transition: 1s;
 	padding: 10px;
 }
 .thumb-container:hover .overlay {
-	height: 270px;
-	border: 6px solid black;
+	opacity: 1;
 }
 .thumb-container:hover .overlay-text {
 	visibility: visible;
+	opacity: 1;
 }
 
 li {
