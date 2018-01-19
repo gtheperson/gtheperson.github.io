@@ -131,7 +131,7 @@ p {
 	opacity: 0;
 	-webkit- transition: 1s;
 	transition: 1s;
-	padding: 10px;
+	padding-left: 10px;
 	text-algin: center;
 }
 .thumb-container:hover .overlay {
