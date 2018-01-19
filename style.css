@@ -178,6 +178,7 @@ li {
 .b-p {
 	font-size: 10px;
 	padding: 20px;
+	font-family: "roboto mono";
 }
 
 @media screen and (max--device-width: 720px) {
