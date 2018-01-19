@@ -181,7 +181,7 @@ li {
 	font-family: "roboto mono";
 }
 
-@media screen and (max--device-width: 720px) {
+@media screen and (max-device-width: 800px) {
 	.btn-div {
 		text-align: left;
 		margin: auto;
