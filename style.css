@@ -13,6 +13,9 @@ a {
 	text-decoration: none;
 	color: black;
 }
+.about: p: a {
+	color: blue;
+}
 
 .nav-bar {
 	background: linear-gradient(#50e052, #68ff6a);
