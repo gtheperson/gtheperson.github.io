@@ -75,7 +75,7 @@ p a {
 	margin: auto;
 	border-radius: 50%;
 }
-h2 {
+h2, h3 {
 	font-family: "Nova Mono";
 }
 p {
@@ -132,6 +132,7 @@ p {
 	-webkit- transition: 1s;
 	transition: 1s;
 	padding: 10px;
+	text-algin: center;
 }
 .thumb-container:hover .overlay {
 	opacity: 1;
